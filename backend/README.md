@@ -19,23 +19,27 @@ FastAPI backend service for AI-powered Applicant Tracking System.
 ## Getting Started
 
 1. Create virtual environment:
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 3. Set up environment variables:
+
 ```bash
 cp .env.example .env
 # Edit .env with your actual values
 ```
 
 4. Run the development server:
+
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
@@ -57,16 +61,19 @@ API documentation available at: http://localhost:8000/docs
 ## Development
 
 Run tests:
+
 ```bash
 pytest
 ```
 
 Format code:
+
 ```bash
 black .
 ```
 
 Lint code:
+
 ```bash
 flake8 .
 ```
@@ -74,6 +81,7 @@ flake8 .
 ## Deployment
 
 Build Docker image:
+
 ```bash
 docker build -t technogencis-ats .
 ```

@@ -12,3 +12,6 @@ scope: Observability, logging, reliability
 - [ ] Add route-level error boundaries (`error.tsx`) and friendly fallbacks
 - [ ] Configure performance budgets and monitor Web Vitals on Vercel
 - [ ] Alerts/dashboards for error rates and latency (Sentry/host)
+- [ ] Worker/queue monitoring: job throughput, failures, retries, DLQ visibility
+- [ ] Redis health checks/metrics; connection pool monitoring
+- [ ] Correlate logs between FastAPI → worker → Supabase events (trace IDs)

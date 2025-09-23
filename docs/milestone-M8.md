@@ -8,6 +8,7 @@ scope: Deployment, environments, runbooks
 
 - [ ] Set up Vercel project with env vars; enable preview deployments and connect repo
 - [ ] Deploy FastAPI to Railway/Fly.io with health checks and scaling
+- [ ] Provision Redis (Upstash/hosted) and deploy worker service (Celery/RQ)
 - [ ] Set up Contentful environments and publish flows
 - [ ] Add ISR revalidation webhooks from Contentful to frontend
 - [ ] Finalize security reviews and dependency updates
